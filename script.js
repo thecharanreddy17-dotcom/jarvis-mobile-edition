@@ -1,3 +1,10 @@
+alert("JARVIS SCRIPT LOADED");
+
+let API_KEY = prompt("ENTER YOUR GEMINI API KEY:");
+
+if (API_KEY) {
+    localStorage.setItem("jarvis_key", API_KEY);
+}
 // ===== GEMINI API KEY =====
 localStorage.removeItem('jarvis_key');
 
